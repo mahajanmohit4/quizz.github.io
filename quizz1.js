@@ -52,7 +52,7 @@ function showquizz() {
                         <p class="card-text"><b>Option-B : </b> ${element.opt2}</p>
                         <p class="card-text"><b>Option-C : </b> ${element.opt3}</p>
                         <p class="card-text"><b>Option-D : </b> ${element.opt4}</p>
-                        <button id="${index}"onclick="deleteNote(this.id)" class="btn btn-primary">Delete Qustion</button>
+                        <button id="${index}"onclick="deleteNote(this.id)" class="btn btn-primary">Delete Question</button>
                     </div>
                 </div>`;
     });
@@ -60,7 +60,7 @@ function showquizz() {
     if (quizzObj.length != 0) {
         quizzElm.innerHTML = html;
     } else {
-        quizzElm.innerHTML = `Your quizz is empty!! Please add the qustions`;
+        quizzElm.innerHTML = `Your quizz is empty!! Please add the questions`;
     }
 }
 
